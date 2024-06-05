@@ -23,6 +23,6 @@ application {
     mainClass = "hexlet.code.App"
 }
 
-run {
-    standardInput = System.in
+tasks.getByName("run", JavaExec::class) {
+    standardInput = System.`in`
 }

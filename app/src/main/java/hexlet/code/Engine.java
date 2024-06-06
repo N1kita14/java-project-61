@@ -25,7 +25,7 @@ public class Engine {
             String wrongAnswerText = "'" + answer + "' is wrong answer ;(. Correct answer was '" + rightAnswer + "'."
                     + "\n" + "Let's try again, " + userName + "!";
 
-            if (answer.equals(rightAnswer) {
+            if (answer.equals(rightAnswer)) {
                 System.out.println(rightAnswerText);
 
             } else{

@@ -9,10 +9,10 @@ public class Progression {
     static final int MAX_STEP = 5;
     static final int MIN_NUMBERS = 5;
     static final int MAX_ROW = 10;
-    static final int MAX_FIRST = 1;
+    static final int MAX_FIRST = 100;
 
     public static void start() {
-        Engine.run(QUESTION, progressionDataGenerate());
+        Engine.run(QUESTION, progressionGenerate1());
     }
 
     static String[] progressionGenerate(int first, int len, int step) {
@@ -24,7 +24,7 @@ public class Progression {
         return numbers;
     }
 
-    static String[][] progressionDataGenerate() {
+    static String[][] progressionGenerate1() {
         String[][] data = new String[Engine.REPEAT][2];
 
         for (var i = 0; i < Engine.REPEAT; i++) {

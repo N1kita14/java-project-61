@@ -45,4 +45,3 @@ public class Progression {
         return data;
     }
 }
-}

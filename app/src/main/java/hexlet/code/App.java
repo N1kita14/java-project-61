@@ -34,7 +34,7 @@ public class App {
                 Cli.doScanner();
                 break;
             case "2":
-                Even.playEven();
+                Even.start();
                 break;
             case "3":
                 Calc.start();

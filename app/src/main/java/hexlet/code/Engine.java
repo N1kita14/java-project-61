@@ -28,7 +28,7 @@ public class Engine {
             if (answer.equals(rightAnswer)) {
                 System.out.println(rightAnswerText);
 
-            } else{
+            } else {
                 System.out.println(wrongAnswerText);
                 return;
             }

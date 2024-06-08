@@ -4,11 +4,11 @@ import hexlet.code.Tools;
 import hexlet.code.Engine;
 
 public class GCD {
-    static final String Description = "Find the greatest common divisor of given numbers.";
+    static final String DESCRIPTION = "Find the greatest common divisor of given numbers.";
     static final int MAX_RANDOM = 100;
 
     public static void start() {
-        Engine.run(Description, gcdDataGenerate());
+        Engine.run(DESCRIPTION, gcdDataGenerate());
     }
 
     static String[][] gcdDataGenerate() {

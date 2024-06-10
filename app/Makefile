@@ -8,3 +8,6 @@ clear:
 
 build:
 	gradlew installDist
+
+checkstyle:
+	gradlew checkstyleMain
